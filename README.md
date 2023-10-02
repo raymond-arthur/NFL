@@ -86,7 +86,7 @@ Notice that there is simply one less column generated in tables for years withou
 Let's start off with an example from two different years of the year-end results from the regular season.
 
 A few important background things to know:
-- From 2000 until 2020, teams played 16 games per season. In 2021 and 2022, teams played 17 games. We can easily track how many games a team played in a year (in the regular season) but summing their wins, losses, and ties.
+- From 2000 until 2020, teams played 16 games per season. In 2021 and 2022, teams played 17 games. We can easily track how many games a team played in a year (in the regular season) by summing their wins, losses, and ties.
 
 
 
