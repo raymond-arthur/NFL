@@ -53,7 +53,7 @@ In the regular season, there are three game outcomes: wins, losses, and ties. Fo
 
 All NFL stats were scraped from [Pro Football Reference](https://pro-football-reference.com/).
 
-Scraping was done on pages ```/years/<YEAR>``` from 2000 to 2022.
+Scraping was done on pages `/years/<YEAR>` from 2000 to 2022.
 
 Several interesting notes:
 - From 1995 to 2002 there were 31 teams. The Texans were added in 2002.
@@ -102,7 +102,7 @@ As noted above, PFR generates tables differently in years with and without ties.
 
 <details>
 <summary> A year with no ties (2000) </summary>
-```
+<code>
 AFC Standings 
 * - division winner, + - wild card Share & Export
 Modify, Export & Share Table
@@ -164,12 +164,12 @@ St. Louis Rams+	10	6	.625	540	471	69	4.3	-1.2	3.1	12.6	-9.5
 Carolina Panthers	7	9	.438	310	310	0	0.0	-1.1	-1.1	-3.6	2.5
 San Francisco 49ers	6	10	.375	388	422	-34	-2.1	-1.7	-3.8	1.7	-5.5
 Atlanta Falcons	4	12	.250	252	413	-161	-10.1	1.5	-8.6	-5.7	-2.9
-```
+</code>
 </details>
 
 <details>
 <summary> A year with ties (2008) </summary>
-```
+<code>
 AFC Standings 
 * - division winner, + - wild card Share & Export
 Modify, Export & Share Table
@@ -234,7 +234,7 @@ Arizona Cardinals*	9	7	0	.563	427	426	1	0.1	-1.9	-1.9	4.1	-6.0
 San Francisco 49ers	7	9	0	.438	339	381	-42	-2.6	-2.7	-5.3	-2.9	-2.4
 Seattle Seahawks	4	12	0	.250	294	392	-98	-6.1	-1.5	-7.6	-4.9	-2.8
 St. Louis Rams	2	14	0	.125	232	465	-233	-14.6	-0.5	-15.1	-8.1	-7.0
-```
+</code>
 </details>
 
 
@@ -260,12 +260,15 @@ for year in range(2000, 2023):
     with open(input_file, "r") as file:
         content = file.read()
 ```
+
+
 We define our input and output directories, and since we've named all of our scraped data `<YEAR>.txt` (eg: 2000.txt) we can simply loop from 2000 to 2022 in one large loop in range (2000,2023).
 
 We'll delete the text blocks by first defining the text blocks (there are 4 variations: AFC or NFC, and Ties or No Ties) and using `replace()` to replace the text with an empty string.
 
 <details>
 <summary> Removing the text blocks</summary>
+
 ```python
     # Define text block for AFC in years without ties
     AfcNoTies_block = '''AFC Standings 
@@ -325,9 +328,9 @@ Tm	W	L	T	W-L%	PF	PA	PD	MoV	SoS	SRS	OSRS	DSRS'''
 
     # Remove unwanted text blocks
     content = content.replace(AfcNoTies_block, '').replace(NfcNoTies_block, '').replace(AfcTies_block,'').replace(NfcTies_block,'')
-    
 ```
-</details>
+</details>   
+
 
 We want to preserve the division, playoff outcome, and year information but we also want the team names to be shared year-to-year (ie: the Miami Dolphins in 2001 are still the Miami Dolphins in 2014).
 So let's remove the playoff outcome symbols (* and +) from the team names, associate them with a new column `PlayoffRes`, move the year from the file name to a new column called `Year`, and remove the division name from above the teams in that division into its own column `Div`:
@@ -388,7 +391,7 @@ We now have some scrubbed data that shows the things we're interested in! Let's 
 
 <details>
 <summary> Scraped 2000</summary>
-```
+<code>
 AFC Standings 
 * - division winner, + - wild card Share & Export
 Modify, Export & Share Table
@@ -450,12 +453,12 @@ St. Louis Rams+	10	6	.625	540	471	69	4.3	-1.2	3.1	12.6	-9.5
 Carolina Panthers	7	9	.438	310	310	0	0.0	-1.1	-1.1	-3.6	2.5
 San Francisco 49ers	6	10	.375	388	422	-34	-2.1	-1.7	-3.8	1.7	-5.5
 Atlanta Falcons	4	12	.250	252	413	-161	-10.1	1.5	-8.6	-5.7	-2.9
-```
+</code>
 </details>
 
 <details>
 <summary> Scrubbed 2000</summary>
-```
+<code>
 Miami Dolphins,11,5,0,.688,323,226,97,6.1,1.0,7.1,0.0,7.1,AFC East,divwin,2000
 Indianapolis Colts,10,6,0,.625,429,326,103,6.4,1.5,7.9,7.1,0.8,AFC East,wildcard,2000
 New York Jets,9,7,0,.563,321,321,0,0.0,3.5,3.5,1.4,2.2,AFC East,missed,2000
@@ -487,7 +490,7 @@ St. Louis Rams,10,6,0,.625,540,471,69,4.3,-1.2,3.1,12.6,-9.5,NFC West,wildcard,2
 Carolina Panthers,7,9,0,.438,310,310,0,0.0,-1.1,-1.1,-3.6,2.5,NFC West,missed,2000
 San Francisco 49ers,6,10,0,.375,388,422,-34,-2.1,-1.7,-3.8,1.7,-5.5,NFC West,missed,2000
 Atlanta Falcons,4,12,0,.250,252,413,-161,-10.1,1.5,-8.6,-5.7,-2.9,NFC West,missed,2000
-```
+</code>
 </details>
 
 Note that we never inserted headers for the column names, we'll do that once they're all combined.
