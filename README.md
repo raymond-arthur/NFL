@@ -51,7 +51,7 @@ In the regular season, there are three game outcomes: wins, losses, and ties. Fo
 
 ### Scraping
 
-All NFL stats were scaped from [Pro Football Reference](https://pro-football-reference.com/).
+All NFL stats were scraped from [Pro Football Reference](https://pro-football-reference.com/).
 
 Scraping was done on pages ```/years/<YEAR>``` from 2000 to 2022.
 
