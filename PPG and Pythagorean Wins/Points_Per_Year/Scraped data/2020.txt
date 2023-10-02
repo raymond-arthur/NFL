@@ -1,0 +1,64 @@
+AFC Standings 
+* - division winner, + - wild card Share & Export
+Modify, Export & Share Table
+Get as Excel Workbook
+Get table as CSV (for Excel)
+Get Link to Table
+About Sharing Tools
+Video: SR Sharing Tools & How-to
+Video: Stats Table Tips & Tricks
+Data Usage Terms
+Glossary
+Tm	W	L	T	W-L%	PF	PA	PD	MoV	SoS	SRS	OSRS	DSRS
+AFC East
+Buffalo Bills*	13	3	0	.813	501	375	126	7.9	-0.2	7.7	7.1	0.6
+Miami Dolphins	10	6	0	.625	404	338	66	4.1	-1.2	3.0	0.3	2.7
+New England Patriots	7	9	0	.438	326	353	-27	-1.7	0.7	-1.0	-4.2	3.2
+New York Jets	2	14	0	.125	243	457	-214	-13.4	1.9	-11.5	-8.7	-2.8
+AFC North
+Pittsburgh Steelers*	12	4	0	.750	416	312	104	6.5	-1.8	4.7	0.3	4.4
+Baltimore Ravens+	11	5	0	.688	468	303	165	10.3	-2.0	8.3	3.9	4.3
+Cleveland Browns+	11	5	0	.688	408	419	-11	-0.7	-1.9	-2.6	0.3	-2.8
+Cincinnati Bengals	4	11	1	.281	311	424	-113	-7.1	-0.4	-7.5	-5.4	-2.1
+AFC South
+Tennessee Titans*	11	5	0	.688	491	439	52	3.3	-1.7	1.6	4.7	-3.1
+Indianapolis Colts+	11	5	0	.688	451	362	89	5.6	-2.8	2.8	1.2	1.6
+Houston Texans	4	12	0	.250	384	464	-80	-5.0	-0.5	-5.5	-1.4	-4.1
+Jacksonville Jaguars	1	15	0	.063	306	492	-186	-11.6	-0.1	-11.7	-6.5	-5.3
+AFC West
+Kansas City Chiefs*	14	2	0	.875	473	362	111	6.9	-0.1	6.8	4.5	2.3
+Las Vegas Raiders	8	8	0	.500	434	478	-44	-2.8	0.8	-2.0	2.9	-4.9
+Los Angeles Chargers	7	9	0	.438	384	426	-42	-2.6	-0.3	-2.9	-1.0	-2.0
+Denver Broncos	5	11	0	.313	323	446	-123	-7.7	1.7	-6.0	-4.3	-1.7
+NFC Standings 
+* - division winner, + - wild card Share & Export
+Modify, Export & Share Table
+Get as Excel Workbook
+Get table as CSV (for Excel)
+Get Link to Table
+About Sharing Tools
+Video: SR Sharing Tools & How-to
+Video: Stats Table Tips & Tricks
+Data Usage Terms
+Glossary
+Tm	W	L	T	W-L%	PF	PA	PD	MoV	SoS	SRS	OSRS	DSRS
+NFC East
+Washington Football Team*	7	9	0	.438	335	329	6	0.4	-1.2	-0.8	-4.1	3.2
+New York Giants	6	10	0	.375	280	357	-77	-4.8	0.4	-4.4	-6.7	2.3
+Dallas Cowboys	6	10	0	.375	395	473	-78	-4.9	-0.2	-5.1	1.0	-6.1
+Philadelphia Eagles	4	11	1	.281	334	418	-84	-5.3	0.8	-4.4	-2.8	-1.6
+NFC North
+Green Bay Packers*	13	3	0	.813	509	369	140	8.8	-1.1	7.7	5.9	1.8
+Chicago Bears+	8	8	0	.500	372	370	2	0.1	0.1	0.2	-2.2	2.4
+Minnesota Vikings	7	9	0	.438	430	475	-45	-2.8	0.4	-2.4	1.3	-3.8
+Detroit Lions	5	11	0	.313	377	519	-142	-8.9	1.2	-7.7	-1.0	-6.7
+NFC South
+New Orleans Saints*	12	4	0	.750	482	337	145	9.1	0.5	9.6	5.1	4.5
+Tampa Bay Buccaneers+	11	5	0	.688	492	355	137	8.6	0.8	9.4	6.5	2.8
+Carolina Panthers	5	11	0	.313	350	402	-52	-3.3	2.2	-1.1	-2.4	1.3
+Atlanta Falcons	4	12	0	.250	396	414	-18	-1.1	1.9	0.7	-0.1	0.8
+NFC West
+Seattle Seahawks*	12	4	0	.750	459	371	88	5.5	0.0	5.5	4.8	0.7
+Los Angeles Rams+	10	6	0	.625	372	296	76	4.8	0.7	5.4	-0.8	6.2
+Arizona Cardinals	8	8	0	.500	410	367	43	2.7	-0.1	2.6	1.5	1.0
+San Francisco 49ers	6	10	0	.375	376	390	-14	-0.9	1.7	0.8	0.2	0.7
