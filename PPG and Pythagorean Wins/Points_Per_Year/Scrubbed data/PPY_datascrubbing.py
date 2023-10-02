@@ -2,8 +2,8 @@ import csv
 import os
 
 # Define the input and output directories
-input_directory = r'C:\Users\Arthur Raymond\Desktop\NFL\PPG and Pythagorean Wins\Points_Per_Year\Scraped data'
-output_directory = r'C:\Users\Arthur Raymond\Desktop\NFL\PPG and Pythagorean Wins\Points_Per_Year\Scrubbed data'
+input_directory = r'...\NFL\PPG and Pythagorean Wins\Points_Per_Year\Scraped data'
+output_directory = r'...\NFL\PPG and Pythagorean Wins\Points_Per_Year\Scrubbed data'
 
 # Loop through the years
 for year in range(2000, 2023):
