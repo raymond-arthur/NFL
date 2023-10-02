@@ -21,14 +21,14 @@ The goal of the formula is to determine, based solely on points scored and point
 
 Given the following
 - dWins = deserved wins
-- PF = points for (also referred to as points scored)
-- PA = points against (also referred to as points given up, or points allowed)
-- GP = Games played during that season
+- pF = points for (also referred to as points scored)
+- pA = points against (also referred to as points given up, or points allowed)
+- gP = Games played during that season
 
 The formula is as follows:
 
 ```math
-dWins = \frac{PF^2}{PF^2 + PA^2} * GP
+dWins = \frac{pF^2}{pF^2 + pA^2} * gP
 ```
 
 Notes:
